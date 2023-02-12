@@ -1,2 +1,29 @@
-# Auto detect text files and perform LF normalization
-* text=auto
+# Navigate to the folder where you want to create the repository
+cd path/to/folder
+
+# Initialize a Git repository
+git init lorem-commit
+
+# Navigate into the repository
+cd lorem-commit
+
+# Download the index.html file from Itslearning and place it in the repository folder
+# (Assuming you have already downloaded the file)
+
+# Stage and commit the index.html file
+git add index.html
+git commit -m "Index added"
+
+# Connect the local repository to the remote repository on GitHub
+git remote add origin https://github.com/Anwar076/lorem-commit.git
+git push -u origin master
+
+# Make changes to the index.html file
+# (Assuming you have already made the changes to the file)
+
+# Stage and commit the changes
+git add index.html
+git commit -m "Made changes to index.html"
+
+# Push the changes to the remote repository
+git push origin master
